@@ -61,6 +61,7 @@ def extrato():
             print("Depositos efetuados:")
             for j in lista_de_depositos:
                 print(f"+R$ {j:.2f}")
+                
         print("\n==========================================")
     else:
         print("Não foram realizadas movimentações.")
